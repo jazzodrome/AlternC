@@ -3501,7 +3501,7 @@ msgstr "Le mail a été changé avec succès."
 #: ../admin/mem_chgmail.php:39 ../admin/mem_cm.php:37 ../admin/mem_cm.php:50
 #: ../admin/mem_cm2.php:42 ../admin/mem_param.php:94
 msgid "Change the email of the account"
-msgstr "Changer l'adresse email du compte AlternC"
+msgstr "Changer l'adresse email de votre compte AlternC ou en ajouter d'autres"
 
 #: ../admin/mem_chgmail.php:48
 #, php-format
@@ -3584,9 +3584,10 @@ msgstr "Changer mon mot de passe"
 #: ../admin/mem_param.php:98
 msgid "help_chg_mail"
 msgstr ""
-"Vous pouvez modifier ici l'adresse email d'inscription correspondant à votre "
-"compte AlternC.<br />Entrez ici la nouvelle adresse email. Un message est "
-"envoyé à cette adresse pour confirmation."
+"Vous pouvez modifier ici l'email d'inscription correspondant à votre compte AlternC.<br />Les associations devraient entrer
+plusieurs emails en les séparant par une virgule.<br />Un message de confirmation sera envoyé à l'adresse que vous venez
+de renseigner. Il contient un lien que vous devrez suivre pour entrer le code de sécurité généré par le bouton "Changer mon
+adresse email".<br />Si vous entrez plusieurs emails, le message est envoyé à tous mais seul un destinataire devra répondre.
 
 #: ../admin/mem_param.php:99
 msgid "Current mailbox"
